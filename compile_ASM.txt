@@ -1,0 +1,8 @@
+first step: as helloworld.s -o helloworld.o
+object file to binary file: ld helloworld.o -o helloworld
+You will see file: helloworld helloworld.o helloworld.s
+if you type ./helloworld,you will get the output(hello world)
+CTRL X+O can change between layout ASM and layout register
+stepi: step into next instruction
+(gdb)x/10x => examine 10 hexadecimal memory slots
+(gdb)x/10c $r1 => examine 10 character memory slots from memory of r1 
